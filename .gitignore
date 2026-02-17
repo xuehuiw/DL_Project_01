@@ -1,0 +1,64 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 模型文件
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.pkl
+*.onnx
+*.ckpt
+*.index
+*.meta
+*.data-00000-of-00001
+
+# 数据文件
+data/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.npy
+*.npz
+*.parquet
+
+# 日志和缓存
+*.log
+*.txt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.swp
+*.swo
+*~
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量和配置
+.env
+.env.local
+.env.*.local
+config.ini
+settings.ini
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 其他
+*.so
+*.dylib
+*.dll
